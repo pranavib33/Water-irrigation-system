@@ -57,4 +57,6 @@ This matters close to home; as of August 26, 2026, the EDP had Berks, Lebanon, L
 | MOSFET `+/- Terminal` | Pump `+/-` | 
 | `1N4007` Diode | MOSFET `+/- Terminals` |
 
+>Note: For the connections between WaveShare and ESP32/MOSFET (entries 3 and 4), two wires must be stripped and twisted together in the same WaveShare terminal.
+
 </div>
