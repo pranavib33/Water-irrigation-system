@@ -126,5 +126,10 @@ graph TD;
 
       
 <h3>Challenges and What We learned</h3>
-1. Splitting one power source to two parts. The Waveshare board has one 5V and one GND terminal, but both the ESP32 and the Mofset need power. We solved this by twisting 
+
+1. **Splitting one power source to two parts** The Waveshare board has one 5V and one GND terminal, but both the ESP32 and the MOFSET need power. We solved this by twisting the corresponding jumper wires together under each terminal and switching to an ESP32 with three GND pins so each part gets its own groun connection.
+
+2. **Wrong Batteries** Our first batteries were wired, single cell. The Waveshare board's battery input was calready onnected to our battery holder, so we had to buy two bare 18650 cells instead. We also learned to check product labels carefully, as one listing claimed "Ni-MH" chemistry and "3.7V" at the same time, which can't both be true.
+   
+4. **Water Reservoir leaking** We tried sealing the holes we cut in our water reservoir with tape, but water still leaked through. Our final approach was waterproof epoxy putty, which we had to reapply a few times to make sure it was fully sealed.
 ---
