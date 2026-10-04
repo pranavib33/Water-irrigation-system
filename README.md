@@ -71,9 +71,6 @@ graph TD;
 
 <h3>Wiring</h3>
 <h4 align="center">Wiring Diagram</h4>
-<p align="center">
-  <img src="wiring_diagram.png" height="400"
-    </p>
 <h4 align="center">All Connections</h4>
 
 <div align="center">
