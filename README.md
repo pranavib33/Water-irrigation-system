@@ -10,7 +10,8 @@
 
 ---
 
-###Table of Contents
+<h3>Table of Contents</h3>
+
 1. [Why We Built This](#why-we-built-this)
 2. [How it Works](#how-it-works)
 3. [Features](#features) 
