@@ -36,3 +36,25 @@ This water use is alarmingly inefficient, with experts estimating that as much a
 This matters close to home; as of August 26, 2026, the EDP had Berks, Lebanon, Lehigh counties under a drought warning, as well as nine more, asking for people to conserve water where they can.
 
 **We wanted to build something low-cost and have it be solar powered (so that it works anywhere), and so that anyone can build one to help save more water!**
+
+<h3>Wiring</h3>
+
+<h4 align="center">All Connections</h4>
+
+<div align="center">
+
+| Command | Description |
+| --- | --- |
+| Solar Panel `+ Wire` | WaveShare `IN+` |
+| Solar Panel `- Wire` | WaveShare `IN` |
+| WaveShare `5V` | ESP32 `5V`, MOSFET `+` |
+| WaveShare `GND` | ESP32 `GND`, MOSFET `-` | 
+| ESP32 `GPIO 1` | MOSFET `IN+` |
+| ESP32 `GND 1` | MOSFET `IN-` |
+| ESP32 `3V3/5V` | Soil Sensor `VCC` |
+| ESP32 `GND 2` | Soil Sensor `GND` |
+| ESP32 `GPIO 2` | Soil Sensor `AOUT` |
+| MOSFET `+/- Terminal` | Pump `+/-` | 
+| `1N4007` Diode | MOSFET `+/- Terminals` |
+
+</div>
