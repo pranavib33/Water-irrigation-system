@@ -61,7 +61,7 @@ graph TD;
 |
 
 <h3>Wiring</h3>
-
+<h4 align="center">Wiring Diagram</h4>
 <h4 align="center">All Connections</h4>
 
 <div align="center">
