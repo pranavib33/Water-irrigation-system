@@ -37,6 +37,8 @@ This matters close to home; as of August 26, 2026, the EDP had Berks, Lebanon, L
 
 **We wanted to build something low-cost and have it be solar powered (so that it works anywhere), and so that anyone can build one to help save more water!**
 
+---
+
 <h3>How it Works</h3>
 
 ```mermaid
@@ -47,6 +49,7 @@ graph TD;
     C-->F([Soil gets watered]);
     D-->E([Nothing happens]);
 ```
+---
 
 <h3>Wiring</h3>
 
@@ -71,3 +74,5 @@ graph TD;
 >Note: For the connections between WaveShare and ESP32/MOSFET (entries 3 and 4), two wires must be stripped and twisted together in the same WaveShare terminal.
 
 </div>
+
+---
