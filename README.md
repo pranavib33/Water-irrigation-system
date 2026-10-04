@@ -57,8 +57,17 @@ graph TD;
 | --- | --- | --- |
 | ESP32 dev board (38-pin, USB-C) | Must expose GPIO 26 and GPIO 34, plus 3V3, 5V, and at least 3 GND pins | $7.99 |
 | Waveshare Solar Power Manager | Board with built-in 3x 18650 holder, 5V output, solar and USB-C input (Module D) | $20.99 |
-| 18650 Li-ion cells x 2 | Rechargeable, same brand/capacity, 2600 mAh | 23.99 |
-|
+| 18650 Li-ion cells x 2 | Rechargeable, same brand/capacity, 2600 mAh | $23.99 |
+| Solar Panel | 10W, 6V, must be within the Waveshare board's input range | $12.00 |
+| MOFSET | Switches the pump; controlled by an ESP32 GPIO and a ESP32 5V pin | $6.00 |
+| 1 pack 5V submersible pump | ALAMSCN DC 5V pump, tubing comes with pump | $2.49 |
+| Soil moisture sensor | Analog output (must be capacitive) | $0.95 |
+| 1N4007 rectifier diode (1A, 1000V) | Flyback protection across the pump, pump of 125 | $5.99 |
+| Water bottle (reservoir) | 1L works best, but anything more works as well | $1.25 |
+| J-B Weld WaterWeld epoxy putty | For sealing wire pass-through holes | $6.17 |
+| Project enclosure | Protects the electronics from weather, IP65 waterproof | $9.99 |
+| Cable Glands | IP68 waterproof with worts and gaskets, 10 pack | $7.99 |
+| Total | | $105.80 |
 
 <h3>Wiring</h3>
 <h4 align="center">Wiring Diagram</h4>
