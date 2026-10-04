@@ -25,3 +25,14 @@
 11. [Community Impact](#community-impact)
 12. [Contributing](#contributing)
 13. [License](#license)
+
+
+<h3>Why We Built This</h3>
+
+When it comes to water waste, we do it too often, whether it's leaving the tap on while brushing our teeth or letting our shower heat up before we hop in. The amount we waste racks up subtly but meaningfully, especially when it comes to caring for our gardens. According to the United States Environmental Protection Agency, watering an average-sized lawn **20 minutes a day for a week** equals the amount of water the average family needs for **1 year's worth of showers**! 
+
+This water use is alarmingly inefficient, with experts estimating that as much as 50% of that water is lost to evaporation, wind, or runoff due to overwatering. Automatic sprinklers make this worse, as they run on a timer, so they water at a set time even if it rained yesterday, or the soil is already wet. **According to the EPA, homes with automatic sprinkler systems use about 50% more water outdoors than homes without them.**
+
+This matters close to home; as of August 26, 2026, the EDP had Berks, Lebanon, Lehigh counties under a drought warning, as well as nine more, asking for people to conserve water where they can.
+
+**We wanted to build something low-cost and have it be solar powered (so that it works anywhere), and so that anyone can build one to help save more water!**
