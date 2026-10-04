@@ -102,12 +102,17 @@ graph TD;
 
 1. Install All Required Tools
    
-  - [Arduino IDE](https://www.arduino.cc/en/software/#ide)
-  * **"esp32" by Espressif** in Arduino Library Manager
-  + **Blynk Library** in Arduino Library Manager
-  + **Blynk** Application on Phone
+    + [Arduino IDE](https://www.arduino.cc/en/software/#ide)
+    + **"esp32" by Espressif** in Arduino Library Manager
+    + **Blynk Library** in Arduino Library Manager
+    + **Blynk** Application on Phone
 
-2. Set up Blynk
+
+3. Set up Blynk
    
+   1. Create a free [Blynk](blynk.io) account.
+   2. Create a new **Template**, using the name `Smart Irrigation`, hardware `ESP32`, and connection `WiFi`.
+   3. Add the following **Datastreams**:
+      
 
 ---
