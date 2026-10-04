@@ -97,7 +97,6 @@ graph TD;
 >Note: For the connections between WaveShare and ESP32/MOSFET (entries 3 and 4), two wires must be stripped and twisted together in the same WaveShare terminal.
 
 </div>
-
 <h3>Software Setup</h3>
 
 1. Install All Required Tools
@@ -112,7 +111,19 @@ graph TD;
    
    1. Create a free [Blynk](blynk.io) account.
    2. Create a new **Template**, using the name `Smart Irrigation`, hardware `ESP32`, and connection `WiFi`.
-   3. Add the following **Datastreams**:
+   3. Add the following **Datastreams**, with these parameters:
+      
+      | Virtual Pin | Purpose | Type |
+      | --- | --- | --- |
+      | `V0` | Soil Moisture Reading (0-4095) | Integer |
+      | `V1` | Pump Status (1= On, 0= Off) | Integer |
+      | `V2` | Manual Pump Override (1= On, 0= Off) | Integer |
+      | `V3` | Daily Pump Runtime (seconds) | Integer |
+      
+   4. Add an **Event** with the code `pump_activated`. This sends a push notification whenever pump turns on.
+   5. Customize your own **Dashboard** with all the information you would like to see.
+   6. Copy your template's `BLYNK_TEMPLATE_ID`, `BLYNK_TEMPLATE_NAME`, and `BLYNK_AUTH_TOKEN` into the top of your code.
+
       
 <h3>Challenges and What We learned</h3>
 1. Splitting one power source to two parts. The Waveshare board has one 5V and one GND terminal, but both the ESP32 and the Mofset need power. We solved this by twisting 
