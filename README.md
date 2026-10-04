@@ -114,5 +114,6 @@ graph TD;
    2. Create a new **Template**, using the name `Smart Irrigation`, hardware `ESP32`, and connection `WiFi`.
    3. Add the following **Datastreams**:
       
-
+<h3>Challenges and What We learned</h3>
+1. Splitting one power source to two parts. The Waveshare board has one 5V and one GND terminal, but both the ESP32 and the Mofset need power. We solved this by twisting 
 ---
