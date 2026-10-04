@@ -37,6 +37,17 @@ This matters close to home; as of August 26, 2026, the EDP had Berks, Lebanon, L
 
 **We wanted to build something low-cost and have it be solar powered (so that it works anywhere), and so that anyone can build one to help save more water!**
 
+<h3>How it Works</h3>
+
+```mermaid
+graph TD;
+    A([Soil Moisture Sensor sends reading to ESP32])-->B([Reading gets compared to a pre-set threshold])
+    B-->C([Soil Reading is DRY]);
+    B-->D([Soil Reading is WET]);
+    C-->F([Soil gets watered]);
+    D-->E([Nothing happens]);
+```
+
 <h3>Wiring</h3>
 
 <h4 align="center">All Connections</h4>
