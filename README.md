@@ -98,4 +98,16 @@ graph TD;
 
 </div>
 
+<h3>Software Setup</h3>
+
+1. Install All Required Tools
+   
+  - [Arduino IDE](https://www.arduino.cc/en/software/#ide)
+  * **"esp32" by Espressif** in Arduino Library Manager
+  + **Blynk Library** in Arduino Library Manager
+  + **Blynk** Application on Phone
+
+2. Set up Blynk
+   
+
 ---
