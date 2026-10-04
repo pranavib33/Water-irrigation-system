@@ -51,6 +51,15 @@ graph TD;
 ```
 ---
 
+<h3>Parts List</h3>
+
+| Part | Notes | Approx. Cost |
+| --- | --- | --- |
+| ESP32 dev board (38-pin, USB-C) | Must expose GPIO 26 and GPIO 34, plus 3V3, 5V, and at least 3 GND pins | $7.99 |
+| Waveshare Solar Power Manager | Board with built-in 3x 18650 holder, 5V output, solar and USB-C input (Module D) | $20.99 |
+| 18650 Li-ion cells x 2 | Rechargeable, same brand/capacity, 2600 mAh | 23.99 |
+|
+
 <h3>Wiring</h3>
 
 <h4 align="center">All Connections</h4>
