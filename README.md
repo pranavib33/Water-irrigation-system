@@ -43,7 +43,7 @@ This matters close to home; as of August 26, 2026, the EDP had Berks, Lebanon, L
 
 <div align="center">
 
-| Command | Description |
+| From | To |
 | --- | --- |
 | Solar Panel `+ Wire` | WaveShare `IN+` |
 | Solar Panel `- Wire` | WaveShare `IN` |
