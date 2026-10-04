@@ -69,8 +69,13 @@ graph TD;
 | Cable Glands | IP68 waterproof with worts and gaskets, 10 pack | $7.99 |
 | Total | | $105.80 |
 
+
 <h3>Wiring</h3>
 <h4 align="center">Wiring Diagram</h4>
+<p align="center">
+  <img src="wiring_diagram.png" height="500" </p>
+
+
 <h4 align="center">All Connections</h4>
 
 <div align="center">
