@@ -69,6 +69,7 @@ graph TD;
 | Cable Glands | IP68 waterproof with worts and gaskets, 10 pack | $7.99 |
 | Total | | $105.80 |
 
+---
 
 <h3>Wiring</h3>
 <h4 align="center">Wiring Diagram</h4>
@@ -140,3 +141,4 @@ When the reading goes above dryThreshold, the pump delivers water
    
 4. **Water Reservoir leaking:** We tried sealing the holes we cut in our water reservoir with tape, but water still leaked through. Our final approach was waterproof epoxy putty, which we had to reapply a few times to make sure it was fully sealed.
 ---
+<h3>Contributing</h3>
