@@ -124,6 +124,13 @@ graph TD;
    5. Customize your own **Dashboard** with all the information you would like to see.
    6. Copy your template's `BLYNK_TEMPLATE_ID`, `BLYNK_TEMPLATE_NAME`, and `BLYNK_AUTH_TOKEN` into the top of your code.
 
+<h3>Calibration</h3>
+1. Open the Serial Monitor - the code prints Soil Moisture: "value" every cycle
+2. Note the reading with the sensor dry and with it fully wet
+3. Note the reading in soil when it is as dry as you would like
+4. Set dryThreshold to a value between "moist" and "dry"
+
+When the reading goes above dryThreshold, the pump delivers water
       
 <h3>Challenges and What We learned</h3>
 
