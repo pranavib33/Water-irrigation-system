@@ -108,7 +108,7 @@ graph TD;
     + **Blynk** Application on Phone
 
 
-3. Set up Blynk
+2. Set up Blynk
    
    1. Create a free [Blynk](blynk.io) account.
    2. Create a new **Template**, using the name `Smart Irrigation`, hardware `ESP32`, and connection `WiFi`.
@@ -124,6 +124,20 @@ graph TD;
    4. Add an **Event** with the code `pump_activated`. This sends a push notification whenever pump turns on.
    5. Customize your own **Dashboard** with all the information you would like to see.
    6. Copy your template's `BLYNK_TEMPLATE_ID`, `BLYNK_TEMPLATE_NAME`, and `BLYNK_AUTH_TOKEN` into the top of your code.
+
+
+3. Flash the ESP32
+
+   1. Open a new sketch in Arduino IDE
+   2. Select the connected ESP32.
+   3. Disconnect the WaveShare 5V to ESP32 before flashing. (This is to prevent power conflicts when flashing)
+   4. Flash the ESP32.
+   5. Once flashed, complete Blynk setup on phone, and ensure that data values are showing up.
+   6. Disconnect the ESP32 from the computer, and reconnect WaveShare 5V.
+
+>Note: WiFi setup occurs in Blynk app, so no connection data has to be entered into Arduino IDE.
+
+---
 
 <h3>Calibration</h3>
 1. Open the Serial Monitor - the code prints Soil Moisture: "value" every cycle
