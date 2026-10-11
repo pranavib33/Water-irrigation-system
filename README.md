@@ -140,6 +140,7 @@ graph TD;
 ---
 
 <h3>Calibration</h3>
+
 1. Open the Serial Monitor - the code prints Soil Moisture: "value" every cycle
 2. Note the reading with the sensor dry and with it fully wet
 3. Note the reading in soil when it is as dry as you would like
